@@ -11,6 +11,7 @@ export default function TodoList(props) {
         const getCurrentTime = () => {
             const hour = format(new Date(), "HH");
             const minute = format(new Date(), "mm");
+            console.log(hour, minute);
             setCurrentTimer({
                 hour: hour > 12 ? hour - 12 : hour,
                 minute: minute
@@ -27,7 +28,7 @@ export default function TodoList(props) {
         return () => clearInterval(interval);
     }, []);
 
-    const markerPosition = 8.2 + (currentTimer.hour * 7.05) + (currentTimer.minute * (7.05 / 60)); // DONE
+    const markerPosition = 15.25 + (currentTimer.hour * 7.05) + (currentTimer.minute * (7.05 / 60)); // DONE
     console.log("marker position -->", markerPosition);
     return (
         <>

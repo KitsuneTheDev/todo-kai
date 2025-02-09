@@ -1,8 +1,8 @@
 import './App.css'
 import BelowBar from "./components/BelowBar.jsx";
 import Footer from "./components/Footer.jsx";
-import LeftSidebar from "./components/LeftSidebar.jsx";
-import RightSidebar from "./components/RightSidebar.jsx";
+import LeftSidebar from "./components/leftsidebar/LeftSidebar.jsx";
+import RightSidebar from "./components/rightsidebar/RightSidebar.jsx";
 import TodoList from "./components/TodoList.jsx";
 
 function App() {

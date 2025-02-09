@@ -1,4 +1,4 @@
-import Routine from "./leftsidebar/Routine";
+import Routine from "./Routine";
 
 export default function LeftSidebar() {
     return (

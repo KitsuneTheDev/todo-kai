@@ -6,6 +6,7 @@ export default function RightSidebar() {
             <h2 className="text-center text-3xl text-green-900">Notes</h2>
             <hr></hr>
             <Notes />
+            <button className="note_button !bg-green-200 mt-1">Add Note +</button>
         </div>
     );
 }
